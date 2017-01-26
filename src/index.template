@@ -1,0 +1,13 @@
+<!doctype html>
+<html class="no-js">
+<base href="/" />
+<head>
+  <title>Hello World</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <main-app>Loading...</main-app>
+</body>
+</html>

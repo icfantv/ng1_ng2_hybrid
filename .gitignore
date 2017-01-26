@@ -1,0 +1,10 @@
+node_modules
+/dist
+/transpiled
+npm-debug.log
+*.ipr
+*.iws
+.idea
+*.swp
+*.DS_Store
+webpack
