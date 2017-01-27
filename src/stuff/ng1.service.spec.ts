@@ -20,6 +20,6 @@ describe('test ng1 service', () => {
   });
 
   it('should return the injected message', () => {
-    expect(service.getNg2Message()).toBe('Always look on the bright side of life.');
+    expect(service.getNg2Message()).toBe('This is the NG2 Service.');
   });
 });
