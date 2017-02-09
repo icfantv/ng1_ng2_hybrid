@@ -4,7 +4,7 @@ import {NG1_MODULE, NG1Service} from 'stuff/ng1.service';
 class MainAppController {
 
   static get $inject(): string[] {
-    return ['ng1service']
+    return ['ng1service'];
   }
 
   constructor(private service: NG1Service) {}
@@ -13,7 +13,6 @@ class MainAppController {
   private injectedMessage: string;
 
   public $onInit() {
-    console.log('on init');
     this.message = this.service.getServiceMessage();
     this.injectedMessage = this.service.getNg2Message();
   }

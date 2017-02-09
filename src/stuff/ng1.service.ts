@@ -4,7 +4,7 @@ import {NG2Service} from './ng2.service';
 export class NG1Service {
 
   static get $inject() {
-    return ['ng2service']
+    return ['ng2service'];
   }
 
   constructor(private service: NG2Service) {}
