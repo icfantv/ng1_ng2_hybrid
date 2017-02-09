@@ -8,7 +8,7 @@ import * as angular from 'angular';
 
 import {bootstrap, html} from './helpers';
 import {NG1_MODULE, NG1Service} from './ng1.service';
-import {NG2_MODULE, NG2Service} from 'stuff/ng2.service';
+import {NG2_MODULE, NG2Service} from './ng2.service';
 
 describe('test ng1 service', () => {
 
