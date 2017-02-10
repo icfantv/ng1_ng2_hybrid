@@ -38,10 +38,10 @@ describe('test ng1 service', () => {
         let $timeout: ng.ITimeoutService = injector.get('$timeout');
         expect($timeout).toBeDefined();
 
-        let ng2Service: NG2Service = upgrade.$injector.get('ng2service') as NG2Service;
+        let ng2Service: NG2Service = injector.get('ng2service') as NG2Service;
         expect(ng2Service).toBeDefined();
 
-        let ng1Service: NG1Service = upgrade.$injector.get('ng1service') as NG1Service;
+        let ng1Service: NG1Service = injector.get('ng1service') as NG1Service;
         expect(ng1Service).toBeDefined();
         expect(ng1Service.getServiceMessage()).toBe('This is the NG1 Service.');
         expect(ng1Service.getNg2Message()).toBe('This is the NG2 Service.');
